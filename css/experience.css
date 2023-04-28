@@ -1,0 +1,86 @@
+.experience{
+    margin: 0rem 6rem 6rem 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.experience__section__title{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black;
+    padding: 1.3rem;
+}
+.experiencie__box{
+    display: flex;
+    padding: 3rem;
+    background: #42275a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+    align-content: center;
+}
+.experience__img{
+    width: 27rem;
+    transition: 1s all;
+    cursor: pointer;
+}
+.experience__img:hover{
+    transform: scale(1.13);
+}
+.experience__info{
+margin: 2rem;
+text-align: center;
+text-shadow: 1px 1px 2px black;
+}
+.experience__title{
+font-size: 2rem;
+}
+.experience__text{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.experiencia__botao--repo{
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bolder;
+    margin-right: 0.5rem;
+}
+.experiencia__botao--demo{
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bolder;
+}
+
+/* RESPONSIVIDAD */
+
+@media screen and (max-width: 1023px){
+    .experience{
+        margin: 1rem;
+    }
+
+.experience__img{
+    width: 25rem;
+}
+.experience__info{
+    margin: 1rem;
+}
+}
+@media screen and (max-width: 767px){
+.experiencie__box{
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+.experience__img{
+    width: 14rem;
+}
+}

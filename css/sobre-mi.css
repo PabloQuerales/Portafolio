@@ -1,0 +1,21 @@
+.about{
+margin: 0 6rem 6rem 6rem;
+}
+.about__title{
+    margin-top: 2rem;
+    font-size: 2rem;
+padding: 1.3rem;
+text-shadow: 1px 1px 2px black;
+}
+.about__paragraph{
+font-size: 1.2rem;
+padding: 0.7rem;
+}
+
+/* RESPONSIVIDAD */
+
+@media screen and (max-width: 768px){
+    .about{
+        margin: 1rem;
+}   
+}   

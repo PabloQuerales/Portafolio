@@ -1,0 +1,16 @@
+.footer{
+    margin: 3rem 6rem 1rem 6rem;
+}
+.footer__rodape{
+    text-align: center;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* RESPONSIVIDAD */
+
+@media screen and (max-width: 768px){
+    .footer{
+        margin: 1rem;
+    }
+}

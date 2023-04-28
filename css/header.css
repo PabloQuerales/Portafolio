@@ -1,0 +1,44 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    padding: 0 40px 0 40px;
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+.menu__header__imagen{
+    width: 2.8rem;
+}
+.menu__list{
+    display: flex;
+}
+.menu__list__item__link{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #E8DDDB;
+}
+.menu__list__item__link:hover{
+    text-decoration: underline;
+}
+
+/* RESPONSIVIDAD */
+
+@media screen and (max-width: 1023px){
+    .menu{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .menu__title{
+    font-size: 1.5rem;
+    }
+    .menu__header__imagen{
+        display: none;   
+    }
+    .menu__list{
+        display: none;    
+    }
+}
